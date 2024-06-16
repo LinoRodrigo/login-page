@@ -1,0 +1,26 @@
+
+
+:root {
+    --color0: black;
+    --color1: #D600F6;
+    --color2: #B800D4;
+    --color3: #DF00FF;
+    --color4: #9B00B3;
+    --color5: #7D0091;
+    --color6: #60006F;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #60006f48;
+}

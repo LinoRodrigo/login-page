@@ -34,6 +34,7 @@ main {
 section {
     display: flex;
     flex-direction: column;
+    padding: 20px 30px;
 }
 
 .title {
@@ -48,6 +49,40 @@ section {
 .input-login {
     display: flex;
     flex-direction: column;
-    margin: 20px 40px;
     
+}
+
+.input- > input {
+    min-width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    padding: 0px 10px;
+    background-color: transparent;
+    
+}
+
+
+.check-login {
+    display: flex;
+    flex-direction: row;
+}
+
+.check-login > a {
+    
+}
+
+.button-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.button-login > button {
+    width: 70%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
 }

@@ -61,7 +61,12 @@ section {
     outline: none;
     font-size: 1em;
     color: var(--color2);
- 
+}
+
+.input- label {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end !important;
 }
 
 
@@ -86,7 +91,7 @@ section {
     width: 70%;
     height: 50px;
     border-radius: 30px;
-    border: 1px solid black;
+    border: 1px solid var(--color2);
     font-size: large;
     font-weight: 400;
     

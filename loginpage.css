@@ -35,6 +35,8 @@ section {
     padding: 20px 30px;
 }
 
+/* titulo do card*/
+
 .title {
     display: flex;
     flex-direction: row;
@@ -44,12 +46,13 @@ section {
     font-size: larger;
 }
 
+/*inputs do cerd*/
+
 .input-login {
     display: flex;
     flex-direction: column;
     
 }
-
 .input- > input {
     min-width: 100%;
     margin-bottom: 20px;
@@ -62,14 +65,11 @@ section {
     font-size: 1em;
     color: var(--color2);
 }
-
 .input- label {
-    position: absolute;
-    display: flex;
-    justify-content: flex-end !important;
+    margin-left: 10px;
 }
 
-
+/*coixinha de check e 'esquece a senha'*/
 
 .check-login {
     display: flex;
@@ -78,13 +78,13 @@ section {
 }
 
 
-
+/* botao de login*/
 
 .button-login {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .button-login > button {
@@ -94,5 +94,27 @@ section {
     border: 1px solid var(--color2);
     font-size: large;
     font-weight: 400;
+    
+}
+
+/* linck que com animaçao para o proximo card*/
+
+.link-para-criacao-de-conta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.link-para-criacao-de-conta i {
+    margin-top: 3px;
+}
+.link-para-criacao-de-conta a {
+    margin: 0px 5px;
+    text-decoration: none;
+}
+.link-para-criacao-de-conta i:hover,
+.link-para-criacao-de-conta a:hover {
+    color: rgb(30, 255, 0);
     
 }
